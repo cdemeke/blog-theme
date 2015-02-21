@@ -13,6 +13,7 @@ To push to the AWS site
 - `ssh -i ghost-blog.pem XXX.amazonaws.com`  # XXX = Your Amazon Public IP
 
 Once ssh'd into server 
+- `sudo su` # to be able to write to files 
 - `cd /var/www/ghost/content/themes/blog-theme`
 - `git pull origin master` # update from gitreop
 - `pm2 restart ghost` # restart ghost
