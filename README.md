@@ -5,6 +5,9 @@ This repo is a revision of the default theme [Ghost](http://github.com/tryghost/
 
 ## Pushing Update to AWS
 
+If this your first time here is a [good resource to set up your Ghost and AWS website and add a custome theme] (http://dannydelott.com/installing-ghost-blog-on-amazon-web-services-with-namecheap-domain-and-custom-theme/)
+
+
 To push to the AWS site
 - First push update to git repo
 - `ssh -i ghost-blog.pem XXX.amazonaws.com`  # XXX = Your Amazon Public IP
