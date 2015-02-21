@@ -483,6 +483,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-header .inner {
     width: 80%;
+    margin-top: -10%;
 }
 
 .main-nav {
@@ -612,7 +613,6 @@ margin on the iframe, cause it breaks stuff. */
     height: 38px;
     padding: 0 5px;
     border: transparent 1px solid;
-    color: #9EABB3 !important;
     text-align: center;
     /*font-size: 12px;*/
     text-transform: uppercase;
@@ -1468,6 +1468,11 @@ body:not(.post-template) .post-title {
         margin-bottom: 15px;
         height: 40%;
     }
+    .main-header .inner {
+    width: 80%;
+    margin-top: -10%;
+    }
+
 
     .no-cover.main-header {
         height: 30%;
