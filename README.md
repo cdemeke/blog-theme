@@ -1,6 +1,7 @@
 # Casper - Revised
 
 This repo is a revision of the default theme [Ghost](http://github.com/tryghost/ghost/).
+###[Demo](http://chrisdemeke.com/)
 
 ## Pushing Update to AWS
 
